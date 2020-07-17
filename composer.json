@@ -1,0 +1,18 @@
+{
+    "name": "centauri/centauri-core",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Centauri\\Core\\": "Classes"
+        }
+    },
+    "replace": {
+        "centauri/centauri-core": "self.version",
+        "typo3-ter/centauri-core": "self.version"
+    }
+}
