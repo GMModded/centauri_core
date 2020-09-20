@@ -4,7 +4,7 @@
     "description": "",
     "authors": [],
     "require": {
-        "typo3/cms-core": "^8.7"
+        "typo3/cms-core": "^8.7.32 || ^9.5.21"
     },
     "autoload": {
         "psr-4": {
